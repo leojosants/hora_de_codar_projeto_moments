@@ -1,0 +1,21 @@
+:root {
+    --color-ffffff: #ffffff;
+    --color-114606: #1146a6;
+}
+
+.class-navbar {
+    background-color: var(--color-114606);
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.class-navbar ul {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.class-navbar a {
+    color: var(--color-ffffff);
+}

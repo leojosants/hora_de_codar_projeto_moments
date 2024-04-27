@@ -1,0 +1,31 @@
+:root {
+    --color-1146a6: #1146a6;
+}
+
+.class-home h2 {
+    color: var(--color-1146a6);
+    padding: 2rem 0 1rem;
+    text-align: center;
+}
+
+.class-memories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.class-memory {
+    flex: 1 1 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.class-memory img {
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}

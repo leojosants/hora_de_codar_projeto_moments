@@ -1,0 +1,39 @@
+:root {
+    --color-cccccc: #cccccc;
+    --color-1146a6: #1146a6;
+}
+
+.class-memory-page {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.class-memory-page h2 {
+    color: var(--color-1146a6);
+}
+
+.class-memory-page img {
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.class-comment-form,
+.class-comments-container {
+    width: 500px;
+}
+
+.class-comment {
+    border-bottom: 1px solid var(--color-cccccc);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.class-comment-name {
+    font-weight: bold;
+}

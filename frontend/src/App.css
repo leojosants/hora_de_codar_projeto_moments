@@ -1,0 +1,8 @@
+:root {
+    --color--f7f7f7: #f7f7f7;
+}
+
+.class-container {
+    min-height: 80vh;
+    background-color: var(--color--f7f7f7);
+}
